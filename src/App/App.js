@@ -11,6 +11,14 @@ import Milal from "./pages/Milal/Milal";
 
 console.log("Galmel:", Galmel);
 
+
+function RedirectIfInvalid() {
+  const location = useLocation();
+  if (location.pathname === "/" || location.pathname === "/uninavi5") {
+    return <Navigate to="/uninavi" replace />;
+  }
+  return null;
+}
 function setScreenSize() {
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty("--vh", `${vh}px`);
@@ -24,7 +32,9 @@ export default function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/uninavi5">
+
+      <RedirectIfInvalid />
       <Routes>
         {/* 🔹 기본 진입 시 /uninavi로 보내기 */}
         <Route path="/" element={<Navigate to="/uninavi" replace />} />

@@ -15,8 +15,6 @@ const CANVAS = { width: 950, height: 210 };
 
 
 /** 방 배치 (참고 이미지와 동일한 위치/크기) */
-
-
 export default function FloorPlanBogeum2({ roomsData = [], selectedRoom, setSelectedRoom }) {
 
 
@@ -33,6 +31,7 @@ export default function FloorPlanBogeum2({ roomsData = [], selectedRoom, setSele
         else if (st.includes("IDLE")) cls = statusToBox("IDLE");
         else if (st.includes("OVER")) cls = statusToBox("OVER");
       }
+
       map[key] = cls;
     });
     return map;

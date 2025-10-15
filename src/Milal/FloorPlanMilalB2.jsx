@@ -42,6 +42,7 @@ export default function FloorPlanMilalB2({ roomsData = [], selectedRoom, setSele
                 className="building-floorplan-canvas"
                 style={{ width: CANVAS.width, height: CANVAS.height }}
             >
+
                 {/* 교직원 */}
                 <div
                     className={`building-room clickable ${selectedRoom?.id === "체력단련실" ? "is-highlight" : ""}`}
