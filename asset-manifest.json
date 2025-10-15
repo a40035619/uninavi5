@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/uninavi5/static/css/main.752567cb.css",
-    "main.js": "/uninavi5/static/js/main.6fcb37cd.js",
+    "main.js": "/uninavi5/static/js/main.c4b863e3.js",
     "static/js/453.f8b68d91.chunk.js": "/uninavi5/static/js/453.f8b68d91.chunk.js",
     "index.html": "/uninavi5/index.html",
     "main.752567cb.css.map": "/uninavi5/static/css/main.752567cb.css.map",
-    "main.6fcb37cd.js.map": "/uninavi5/static/js/main.6fcb37cd.js.map",
+    "main.c4b863e3.js.map": "/uninavi5/static/js/main.c4b863e3.js.map",
     "453.f8b68d91.chunk.js.map": "/uninavi5/static/js/453.f8b68d91.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.752567cb.css",
-    "static/js/main.6fcb37cd.js"
+    "static/js/main.c4b863e3.js"
   ]
 }
